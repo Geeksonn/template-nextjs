@@ -6,11 +6,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                /* TODO
-                default: ['var(--normal)', ...fontFamily.sans],
-                title: ['var(--title)', ...fontFamily.sans],
-                number: ['var(--number)', ...fontFamily.sans],
-                */
+                body: ['var(--body)', ...fontFamily.sans],
+                title: ['var(--title)', ...fontFamily.sans]
             },
         },
     },
