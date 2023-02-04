@@ -2,8 +2,7 @@
 
 import { Inter, Nunito, PT_Mono } from '@next/font/google';
 
-const inter = Inter({ subsets: ['latin'], variable: '--normal' });
-const nunito = Nunito({ variable: '--title' });
-const number = PT_Mono({ weight: '400', subsets: ['latin'], variable: '--number' });
+const body = Inter({ subsets: ['latin'], variable: '--body' });
+const title = Nunito({ variable: '--title' });
 
-export { inter, nunito, number };
+export { body, title };
